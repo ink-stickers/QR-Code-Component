@@ -1,0 +1,39 @@
+html{
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    max-width: min-content;
+    margin-top: 5rem;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    width:15rem;
+}
+
+h1{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.2rem;
+    font-weight:700;
+    padding:0.7rem;
+}
+
+p{
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
