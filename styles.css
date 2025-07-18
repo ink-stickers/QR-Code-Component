@@ -1,37 +1,52 @@
-html{
-    background-color: hsl(212, 45%, 89%);
-
+* {
+  box-sizing: inherit;
 }
 
-body{
-    font-family: "Outfit", sans-serif;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1rem;
-    max-width: min-content;
-    margin: auto;
-    margin-top: 10rem;
+html {
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
 }
 
-img{
-    display: block;
-    margin: auto;
-    padding: 0.2rem;
-    border-radius: 1rem;
-    width:15rem;
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
 }
 
-h1{
-    text-align: center;
-    color: hsl(218, 44%, 22%);
-    font-size: 1.2rem;
-    font-weight:700;
-    padding:0.7rem;
+.bg {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 20rem;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-p{
-    text-align: center;
-    color: hsl(216, 15%, 48%);
-    font-size: 0.9rem;
-    font-weight: 400;
+img {
+  display: block;
+  margin: auto;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.7rem;
+}
+
+p {
+  color: hsl(216, 15%, 48%);
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0 0.7rem 0.7rem;
 }
